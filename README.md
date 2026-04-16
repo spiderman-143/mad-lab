@@ -1,13 +1,3 @@
-# Flutter / Dart Sample Pack
-
-These files are standalone examples for the ideas you listed.
-
-## How to use
-
-1. Create a Flutter project.
-2. Copy any one sample file into `lib/main.dart`.
-3. Run `flutter pub add http` for files that use APIs.
-4. Run the app.
 
 ## Files
 
@@ -47,13 +37,3 @@ These files are standalone examples for the ideas you listed.
 - `samples/34_budget_management.dart`
 - `samples/35_customer_management.dart`
 
-## Notes
-
-- File `11` is a Dart server example, not a Flutter screen.
-- The weather app uses Open-Meteo.
-- The meme generator uses Imgflip's public meme list.
-- The quote app uses a public quote endpoint and falls back gracefully.
-- Push notifications in the waste management sample are simulated inside the app UI. Real push requires Firebase or another notification service.
-- Item `15` from your list is the same BMI problem as item `13`, so one BMI file is provided.
-- The Google Maps sample needs `google_maps_flutter` and platform API key setup.
-- The News Reader and Recipe samples use `http`.
