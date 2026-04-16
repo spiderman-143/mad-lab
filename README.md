@@ -1,1 +1,59 @@
-# mad-lab
+# Flutter / Dart Sample Pack
+
+These files are standalone examples for the ideas you listed.
+
+## How to use
+
+1. Create a Flutter project.
+2. Copy any one sample file into `lib/main.dart`.
+3. Run `flutter pub add http` for files that use APIs.
+4. Run the app.
+
+## Files
+
+- `samples/01_travel_entertainment_management.dart`
+- `samples/02_meme_generator.dart`
+- `samples/03_weather_app.dart`
+- `samples/04_mood_tracker.dart`
+- `samples/05_quote_suggestor.dart`
+- `samples/06_food_delivery_gestures.dart`
+- `samples/07_movie_review_rating.dart`
+- `samples/08_catch_falling_ball.dart`
+- `samples/09_waste_management_system.dart`
+- `samples/10_todo_gesture_list.dart`
+- `samples/11_election_news_server.dart`
+- `samples/12_electricity_bill_calculator.dart`
+- `samples/13_bmi_dashboard.dart`
+- `samples/14_smart_home_services.dart`
+- `samples/15_tap_circle_game.dart`
+- `samples/16_color_match_gesture_game.dart`
+- `samples/17_bmi_calculator_basic.dart`
+- `samples/18_calculator.dart`
+- `samples/19_expense_manager.dart`
+- `samples/20_notes_app.dart`
+- `samples/21_ecommerce_ui.dart`
+- `samples/22_hotel_management_ui.dart`
+- `samples/23_google_maps_integration.dart`
+- `samples/24_event_management.dart`
+- `samples/25_ticket_booking.dart`
+- `samples/26_todo_app_basic.dart`
+- `samples/27_unit_conversion.dart`
+- `samples/28_shape_drawing.dart`
+- `samples/29_student_management.dart`
+- `samples/30_employee_management.dart`
+- `samples/31_news_reader.dart`
+- `samples/32_portfolio_ui.dart`
+- `samples/33_recipe_app.dart`
+- `samples/34_budget_management.dart`
+- `samples/35_customer_management.dart`
+
+## Notes
+
+- File `11` is a Dart server example, not a Flutter screen.
+- The weather app uses Open-Meteo.
+- The meme generator uses Imgflip's public meme list.
+- The quote app uses a public quote endpoint and falls back gracefully.
+- Push notifications in the waste management sample are simulated inside the app UI. Real push requires Firebase or another notification service.
+- Item `15` from your list is the same BMI problem as item `13`, so one BMI file is provided.
+- The Google Maps sample needs `google_maps_flutter` and platform API key setup.
+- The News Reader and Recipe samples use `http`.
